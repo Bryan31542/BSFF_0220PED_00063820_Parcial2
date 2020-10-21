@@ -25,7 +25,7 @@ vector<Producto> listaProductos2;
 
 void menuDonas(queue<Pedido> &);
 void menuPlatos(queue<Pedido> &);
-void choosePush(queue<Pedido> &, queue<Pedido>);
+void choosePush(queue<Pedido> &, queue<Pedido> &);
 void cobrarDonas(queue<Pedido> *, float, float);
 void cobrarPlatos(queue<Pedido> *, float, float);
 
