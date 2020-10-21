@@ -79,7 +79,7 @@ int main(){
     return 0;
 }
 
-void choosePush(queue<Pedido> &donas, queue<Pedido> platos){
+void choosePush(queue<Pedido> &donas, queue<Pedido> &platos){
 
     int option;
 
